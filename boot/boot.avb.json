@@ -1,0 +1,78 @@
+{
+  "header" : {
+    "required_libavb_version_major" : 1,
+    "required_libavb_version_minor" : 0,
+    "authentication_data_block_size" : 0,
+    "auxiliary_data_block_size" : 640,
+    "algorithm_type" : 0,
+    "hash_offset" : 0,
+    "hash_size" : 0,
+    "signature_offset" : 0,
+    "signature_size" : 0,
+    "public_key_offset" : 592,
+    "public_key_size" : 0,
+    "public_key_metadata_offset" : 592,
+    "public_key_metadata_size" : 0,
+    "descriptors_offset" : 0,
+    "descriptors_size" : 592,
+    "rollback_index" : 0,
+    "flags" : 0,
+    "release_string" : "avbtool 1.1.0"
+  },
+  "authBlob" : null,
+  "auxBlob" : {
+    "pubkey" : null,
+    "pubkeyMeta" : null,
+    "propertyDescriptors" : [ {
+      "tag" : 0,
+      "num_bytes_following" : 128,
+      "sequence" : 2,
+      "key" : "com.android.build.boot.fingerprint",
+      "value" : "OnePlus/Nord_EEA/Nord:11/RP1A.201005.001/2203101723:user/release-keys"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 56,
+      "sequence" : 3,
+      "key" : "com.android.build.boot.os_version",
+      "value" : "11"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 72,
+      "sequence" : 4,
+      "key" : "com.android.build.boot.security_patch",
+      "value" : "2022-03-01"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 72,
+      "sequence" : 5,
+      "key" : "com.android.build.boot.security_patch",
+      "value" : "2022-03-01"
+    } ],
+    "hashTreeDescriptors" : [ ],
+    "hashDescriptors" : [ {
+      "tag" : 2,
+      "num_bytes_following" : 184,
+      "sequence" : 1,
+      "flags" : 0,
+      "partition_name" : "boot",
+      "hash_algorithm" : "sha256",
+      "image_size" : 39235584,
+      "salt" : "+iprsN0fSZXInjTu7Oz1gYKf4sKzSq9kvTx/cIiOgf8=",
+      "digest" : "J+ytIT3eux+95yKflQaZw/MMYA72Inv6Ltm1X4/Ty4c=",
+      "partition_name_len" : 4,
+      "salt_len" : 32,
+      "digest_len" : 32,
+      "flagsInterpretation" : "0:A/B system"
+    } ],
+    "kernelCmdlineDescriptors" : [ ],
+    "chainPartitionDescriptors" : [ ],
+    "unknownDescriptors" : [ ]
+  },
+  "footer" : {
+    "versionMajor" : 1,
+    "versionMinor" : 0,
+    "originalImageSize" : 39235584,
+    "vbMetaOffset" : 39235584,
+    "vbMetaSize" : 896
+  }
+}

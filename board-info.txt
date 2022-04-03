@@ -1,0 +1,4 @@
+require version-baseband=2.0.c9-00023-SAIPAN_GEN_PACK-1.422164.2.446371.2
+require version-modem=2022-03-1018:00:28
+require version-trustzone=TZ.XF.5.10.1-412990-2
+require version-vendor=1646904590
